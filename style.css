@@ -128,3 +128,20 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width:1007px){
+  .recommend__c1,.recommend__c2,.recommend__c3,.recommend__c4{
+    justify-content:center;
+    flex-basis: 45%;
+    
+  } 
+}
+
+@media screen and (max-width:641px) {
+  .recommend__c1,.recommend__c2,.recommend__c3,.recommend__c4{
+    justify-content: space-evenly;
+    flex-basis: 100%;
+    
+    
+  }
+}
